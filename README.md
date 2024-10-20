@@ -47,7 +47,7 @@ tambien aleatorios. La carrera termina cuando todos los autos han completado el 
 5. Ejemplo:
     ```bash
     ./Tarea1 100 5
-   
+    ```
 
 
 ## Archivos
