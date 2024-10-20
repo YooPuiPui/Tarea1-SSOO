@@ -10,7 +10,7 @@ tambien aleatorios. La carrera termina cuando todos los autos han completado el 
 
 ## Requisitos
 - **Lenguaje**: C++ (estandar C++11 o superior)
-- **Compilador**: GNU g++
+- **Compilador**: GNU g++ (para usar Makefile)
 - **Plataforma**: Sistema operativo Linux.
 
 ## Funcionamiento
@@ -49,9 +49,11 @@ tambien aleatorios. La carrera termina cuando todos los autos han completado el 
     ./Tarea1 100 5
    
 
-### Archivos
-- Makefile: Para compilar con make.
-- Tarea1.cpp: Codigo fuente del programa
+
+## Archivos
+- `Makefile`: Facilita la compilacion del programa. Al ejecutar el comando `make`, se genera el ejecutable Tarea1, que se puede ejecutar en 
+la terminal para ejecutar la carrera.
+- `Tarea1.cpp`: Contiene todo el codigo fuente del proyecto, donde se simulan la carrera y los autos mediante hilos.
 
 ## Nombres de Estudiantes
 
