@@ -1,14 +1,19 @@
-EXEC = Tarea1
+# Nombre del ejecutable
+TARGET = Tarea1
 
+# Compilador y banderas
 CXX = g++
+CXXFLAGS = -std=c++11 -Wall -pthread
 
-CXXFLAGS = -std=c++11 -pthread
+# Archivos fuente
+SRC = Tarea1.cpp
 
-SRCS = Tarea1.cpp
+# Regla por defecto: compilar el programa
+all: $(TARGET)
 
-all: $(EXEC)
+$(TARGET): $(SRC)
+	$(CXX) $(CXXFLAGS) -o $(TARGET) $(SRC)
 
-$(EXEC): $(SRCS)
-        $(CXX) $(CXXFLAGS) -o $(EXEC) $(SRCS)
+# Limpiar los archivos generados
 clean:
-        rm -f $(EXEC)
+	rm -f $(TARGET)
