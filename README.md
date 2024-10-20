@@ -43,11 +43,11 @@ tambien aleatorios. La carrera termina cuando todos los autos han completado el 
     En la terminal ingrese lo siguiente:
 
     ./Tarea1 "Distancia total en metros" "Número de autos en la carrera"
-    
-    Ejemplo:
-    ./Tarea1 100 5
-
     ```
+5. Ejemplo:
+    ```bash
+    ./Tarea1 100 5
+   
 
 ### Archivos
 - Makefile: Para compilar con make.
