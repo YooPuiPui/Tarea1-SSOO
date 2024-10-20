@@ -36,13 +36,12 @@ tambien aleatorios. La carrera termina cuando todos los autos han completado el 
 3. Ejecutar make en la terminal:
     ```bash
     make
-    ```
    ```
 4. Luego de ejecutar "make" siga los siguientes pasos:
 
     ```bash
     En la terminal ingrese lo siguiente:
-    
+
     ./Tarea1 "Distancia total en metros" "Número de autos en la carrera"
     
     Ejemplo:
