@@ -27,23 +27,35 @@ tambien aleatorios. La carrera termina cuando todos los autos han completado el 
     ```bash
     git clone https://github.com/YooPuiPui/Tarea1-SSOO.git
     ```
+
+2. Moverse a la carpeta Tarea1-SSOO:
+    ```bash
+    cd Tarea1-SSOO
+    ```
+   
+3. Ejecutar make en la terminal
+ ```bash
+    make
+    ```
+
 ### Ejecucion
-Ejecuta el programa de la siguiente manera:
+Luego de ejecutar "make" en la termina siga los siguientes pasos:
 
 
-1. Copiar código
+1. Copiar el siguiente código
 
  ```bash
-    ./carrera_autos <Distancia total en metros.> <Número de autos en la carrera.>
+    ./Tarea1 "Distancia total en metros" "Número de autos en la carrera"
  ```
 
 ### Ejemplo
  ```bash
-    ./carrera_autos <100> <5>
+    ./Tarea1 100 5
  ``` 
-### Archivo
+### Archivos
 - Makefile: Para compilar con make.
+- Tarea1.cpp: Codigo fuente del programa
 
-## Nombre Estudiantes
+## Nombres de Estudiantes
 
- Francisca Huaique y Nicolas Muñoz
+Francisca Huaique y Nicolas Muñoz

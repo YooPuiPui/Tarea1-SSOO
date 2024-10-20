@@ -1,13 +1,14 @@
+EXEC = Tarea1
+
 CXX = g++
+
 CXXFLAGS = -std=c++11 -pthread
 
-TARGET = tarea1
-SRCS = tarea1.cpp
+SRCS = Tarea1.cpp
 
-all: $(TARGET)
+all: $(EXEC)
 
-$(TARGET): $(SRCS)
-         $(CXX) $(CXXFLAGS) -o $(TARGET) $(SRCS)
-
+$(EXEC): $(SRCS)
+        $(CXX) $(CXXFLAGS) -o $(EXEC) $(SRCS)
 clean:
-        rm -f $(TARGET)
+        rm -f $(EXEC)
