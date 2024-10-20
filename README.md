@@ -20,6 +20,11 @@ tambien aleatorios. La carrera termina cuando todos los autos han completado el 
   un tiempo aleatorio (entre 100 y 500 ms), simulando velocidades diferentes.
 - El programa muestra el progreso en tiempo real y finaliza cuando todos los autos llegan.
 
+## Archivos
+- `Makefile`: Facilita la compilacion del programa. Al ejecutar el comando `make`, se genera el ejecutable Tarea1, que se puede ejecutar en 
+la terminal para ejecutar la carrera.
+- `Tarea1.cpp`: Contiene todo el codigo fuente del proyecto, donde se simulan la carrera y los autos mediante hilos.
+
 ### Pasos 
 
 1. Clonar el repositorio:
@@ -50,10 +55,6 @@ tambien aleatorios. La carrera termina cuando todos los autos han completado el 
     ```
 
 
-## Archivos
-- `Makefile`: Facilita la compilacion del programa. Al ejecutar el comando `make`, se genera el ejecutable Tarea1, que se puede ejecutar en 
-la terminal para ejecutar la carrera.
-- `Tarea1.cpp`: Contiene todo el codigo fuente del proyecto, donde se simulan la carrera y los autos mediante hilos.
 
 ## Nombres de Estudiantes
 
