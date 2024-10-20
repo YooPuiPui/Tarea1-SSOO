@@ -36,22 +36,18 @@ tambien aleatorios. La carrera termina cuando todos los autos han completado el 
 3. Ejecutar make en la terminal
  ```bash
     make
+   ```
+
+4. Luego de ejecutar "make" siga los siguientes pasos:
+
+    ```bash
+    ./Tarea1 "Distancia total en metros" "Número de autos en la carrera"
+    
+    Ejemplo:
+    ./Tarea1 100 5
+
     ```
 
-### Ejecucion
-Luego de ejecutar "make" en la termina siga los siguientes pasos:
-
-
-1. Copiar el siguiente código
-
- ```bash
-    ./Tarea1 "Distancia total en metros" "Número de autos en la carrera"
- ```
-
-### Ejemplo
- ```bash
-    ./Tarea1 100 5
- ``` 
 ### Archivos
 - Makefile: Para compilar con make.
 - Tarea1.cpp: Codigo fuente del programa
