@@ -17,7 +17,7 @@ tambien aleatorios. La carrera termina cuando todos los autos han completado el 
 - Cada auto tiene un identificador único.
 - Avanza y se detiene aleatoriamente.
 - En cada iteración, los autos avanzan una distancia aleatoria (máximo 10 metros) y se detienen por 
-  un tiempo aleatorio (entre 100 y 500 ms), simulando velocidades diferentes.En cada iteración, los autos avanzan una distancia aleatoria (máximo 10 metros) y se detienen por un tiempo aleatorio (entre 100 y 500 ms), simulando velocidades diferentes.
+  un tiempo aleatorio (entre 100 y 500 ms), simulando velocidades diferentes.
 - El programa muestra el progreso en tiempo real y finaliza cuando todos los autos llegan.
 
 ### Pasos 
